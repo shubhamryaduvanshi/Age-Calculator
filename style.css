@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(156, 63, 63);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+}
+.wrapper{
+    height: auto;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    padding: 50px 18px;
+    box-shadow:2px 2px 7px rgb(124, 3, 3);
+}
+
+h2{
+    text-align: center;
+    color: rgb(241, 241, 241);
+    font-size: 30px;
+    padding: 0 0 30px 0;
+}
+
+.form-section{
+    width: 100%;
+    line-height: 25px;   
+}
+.form-section label{
+    text-align: left;
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+}
+.form-section .inputfield{
+    padding: 2px 5px;
+    border-radius: 2px;
+    border: none;
+    width: 65%;
+    background-color: rgb(218, 218, 218);
+}
+button{
+    padding: 3px 7px;
+    margin:0 5px;
+    font-size: 14px;
+    background-color: rgb(172, 32, 60);
+    color: rgb(216, 211, 211);
+    border: none;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+button:active{
+    background-color:rgb(216, 211, 211) ;
+    color: rgb(146, 11, 38);
+    border: 1px solid rgb(180, 12, 45);
+}
+
+.result{
+    background-color: rgba(255, 255, 255, 0.452);
+    color: rgb(54, 50, 50);
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+}
